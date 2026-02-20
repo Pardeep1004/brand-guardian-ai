@@ -52,44 +52,42 @@ Brands spend **billions** on video advertising across YouTube and social media. 
 
 ```
                          ┌─────────────────────────────┐
-                         │    Frontend (Jinja2 + JS)    │
-                         │  • Video URL Input            │
-                         │  • Region Selector            │
-                         │  • Real-time Status Polling   │
-                         │  • Audit Report Viewer        │
-                         │  • Interactive Chat Q&A       │
+                         │    Frontend (Jinja2 + JS)   │
+                         │  • Video URL Input          │
+                         │  • Region Selector          │
+                         │  • Real-time Status Polling │
+                         │  • Audit Report Viewer      │      
                          └──────────┬──────────────────┘
                                     │  HTTP / REST
                                     ▼
                          ┌─────────────────────────────┐
-                         │   FastAPI Backend Server      │
-                         │  • POST /audit (async)        │
-                         │  • GET  /status/{task_id}     │
-                         │  • GET  /history              │
-                         │  • POST /chat                 │
-                         │  • GET  /health               │
+                         │   FastAPI Backend Server    │
+                         │  • POST /audit (async)      │
+                         │  • GET  /status/{task_id}   │
+                         │  • GET  /history            │
+                         │  • GET  /health             │
                          └──────────┬──────────────────┘
                                     │  Background Task
                                     ▼
                ┌─────────────────────────────────────────────┐
-               │          LangGraph Workflow (DAG)            │
+               │          LangGraph Workflow (DAG)           │
                │                                             │
                │   START                                     │
                │     │                                       │
                │     ▼                                       │
                │   ┌─────────────────────┐                   │
-               │   │  Node 1: Indexer     │                   │
-               │   │  • yt-dlp download   │                   │
-               │   │  • Azure VI upload   │                   │
-               │   │  • Extract insights  │                   │
+               │   │  Node 1: Indexer    │                   │
+               │   │  • yt-dlp download  │                   │
+               │   │  • Azure VI upload  │                   │
+               │   │  • Extract insights │                   │
                │   └─────────┬───────────┘                   │
                │             │                               │
                │             ▼                               │
                │   ┌─────────────────────┐                   │
-               │   │  Node 2: Auditor     │                   │
-               │   │  • RAG retrieval     │──── Azure AI Search
-               │   │  • GPT-4o analysis   │──── Azure OpenAI
-               │   │  • JSON report gen   │                   │
+               │   │  Node 2: Auditor    │                   │
+               │   │  • RAG retrieval    │── Azure AI Search | 
+               │   │  • GPT-4o analysis  │── Azure OpenAI    |
+               │   │  • JSON report gen  │                   │
                │   └─────────┬───────────┘                   │
                │             │                               │
                │             ▼                               │
