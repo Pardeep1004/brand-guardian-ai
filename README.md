@@ -56,7 +56,8 @@ Brands spend **billions** on video advertising across YouTube and social media. 
                          │  • Video URL Input          │
                          │  • Region Selector          │
                          │  • Real-time Status Polling │
-                         │  • Audit Report Viewer      │      
+                         │  • Audit Report Viewer      │
+                         │  • Interactive Chat Q&A     │
                          └──────────┬──────────────────┘
                                     │  HTTP / REST
                                     ▼
@@ -65,6 +66,7 @@ Brands spend **billions** on video advertising across YouTube and social media. 
                          │  • POST /audit (async)      │
                          │  • GET  /status/{task_id}   │
                          │  • GET  /history            │
+                         │  • POST /chat               │
                          │  • GET  /health             │
                          └──────────┬──────────────────┘
                                     │  Background Task
@@ -85,8 +87,8 @@ Brands spend **billions** on video advertising across YouTube and social media. 
                │             ▼                               │
                │   ┌─────────────────────┐                   │
                │   │  Node 2: Auditor    │                   │
-               │   │  • RAG retrieval    │── Azure AI Search | 
-               │   │  • GPT-4o analysis  │── Azure OpenAI    |
+               │   │  • RAG retrieval    │──── Azure AI Search
+               │   │  • GPT-4o analysis  │──── Azure OpenAI
                │   │  • JSON report gen  │                   │
                │   └─────────┬───────────┘                   │
                │             │                               │
