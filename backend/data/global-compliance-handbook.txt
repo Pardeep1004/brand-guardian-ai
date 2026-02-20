@@ -1,0 +1,92 @@
+# GLOBAL ADVERTISING COMPLIANCE HANDBOOK (2025-2026)
+## Scope: YouTube Ad Specs, Regional Laws (NA, EU, ASIA)
+
+### SECTION 1: YOUTUBE ADVERTISING SPECIFICATIONS & POLICIES (2026)
+1. MANDATORY AI DISCLOSURE:
+    - Any video ad containing photorealistic synthetic/AI-generated content must be disclosed.
+    - Failure to disclose AI content carries potential penalties up to $51,744 per violation.
+    - Labels must be applied using the "Altered or synthetic content" checkbox.
+
+2. CONTENT MATURITY & TONE:
+    - Profanity: Stronger profanity in the first 7 seconds of content is now eligible for ad revenue (reversing previous bans).
+    - Controversial Issues: Monetization is permitted if the issue is presented in a non-graphic, dramatized context.
+    - Child Safety: Stricter bans on content relating to child abuse or eating disorders.
+
+3. TECHNICAL SPECS:
+    - Skip Rules: Standard skippable ads must allow skipping after 5 seconds.
+    - Vertical Video: Recommended 1080x1920px for YouTube Shorts.
+    - Safe Zones: Ad content must not be obscured by the "Skip Ad" button or engagement overlays (typically bottom 20% and right 10%).
+
+4. AUTHENTICITY:
+    - "Inauthentic Content" policy: Mass-produced or repetitive content is ineligible for monetization.
+    - Use of C2PA and SynthID watermarks is highly recommended for identified branding.
+
+---
+
+### SECTION 2: NORTH AMERICA (FTC & CGA)
+1. UNITED STATES (FTC):
+    - Influencer Disclosure: "Material connection" (payment, free gifts, family relation) must be clearly disclosed at the VERY START of the video.
+    - Subscriptions (Negative Option): "Click-to-Cancel" rule—it must be as easy to cancel a subscription as it was to sign up. No "Save" attempts that prevent cancellation.
+    - Product Claims: Environmental (Green) and health claims must be substantiated with scientific evidence. "Made in USA" claims require the product to be "all or virtually all" made in the US.
+    - Junk Fees: All pricing must be truthful and include mandatory fees up-front.
+
+2. CANADA (CGA/ASC):
+    - Gambling: Strict ban on using athletes or celebrities who appeal to minors in gambling ads.
+    - Employment Ads: Job postings must disclose wage ranges and the use of AI in recruitment.
+
+---
+
+### SECTION 3: EUROPEAN UNION (DSA, DMA, DFA, AVMSD)
+1. DIGITAL SERVICES ACT (DSA):
+    - Ad Transparency: For every ad, the user must be able to see: 1) That it is an ad, 2) Who paid for it, and 3) Why THEY are seeing it (targeting parameters).
+    - Targeting Minors: PROHIBITED to show targeted ads to children based on profiling/personal data.
+    - Dark Patterns: UI designs that nudge users into making unintended choices are illegal.
+
+2. GREENWASHING & ENVIRONMENTAL CLAIMS (2026):
+    - Generic Claims: PROHIBITED to use terms like "eco-friendly," "green," or "biodegradable" without independent, excellent environmental performance substantiation.
+    - Offsetting: PROHIBITED to claim a product has a neutral or positive environmental impact based solely on carbon offsetting outside the value chain.
+    - Future Claims: Must have a detailed, verifiable implementation plan with time-bound targets and independent monitoring.
+
+3. AVMSD (AUDIOVISUAL MEDIA SERVICES DIRECTIVE):
+    - European Content: Video-on-demand services must ensure at least a 30% share of European works in their catalogs.
+    - Minor Protection: Strict ban on processing minors' personal data for commercial purposes, profiling, and behaviorally targeted advertising in VSPs.
+    - Harmful Content: Platforms must have efficient mechanisms for users to report incitement to hatred/violence.
+
+4. ALCOHOL & TOBACCO (LOI EVIN & CROSS-BORDER BANS):
+    - France (Loi Evin): Alcohol ads must be objective and informative (degree, origin, ingredients). Association with social success, pleasure, or "festive moments" is PROHIBITED.
+    - Mandatory Health Warning (France): "L'abus d'alcool est dangereux pour la santé" must be visible.
+    - Tobacco/E-Cigarettes: Total EU-wide ban on cross-border advertising, including social media influencers and product placements.
+
+5. GERMANY SPECIFIC (NETZDG & YOUTH PROTECTION):
+    - Hate Speech (NetzDG): Clearly illegal content must be removed within 24 hours of notification.
+    - Youth Protection (JuSchG): Online platforms must implement child-friendly default settings and age verification for harmful content.
+    - Financial Ads: Social media platforms must verify government-issued IDs of advertisers for financial/investment products.
+
+6. DIGITAL FAIRNESS ACT (DFA - 2026):
+    - Addictive Design: Regulations against features that encourage compulsive viewing or interaction.
+    - Influencer Marketing: Stricter enforcement on misleading endorsements and undisclosed paid placement.
+
+7. AI ACT (AUGUST 2026):
+    - Deepfake Disclosure: Mandatory labeling of all deepfakes. Penalties up to €15 million or 3% of global turnover.
+
+---
+
+### SECTION 4: ASIA (VIETNAM, S. KOREA, UAE)
+1. VIETNAM (DECREE 342/2025):
+    - Mandatory Skip Button: All online video ads MUST have a skip button after 5 seconds. Unskippable ads longer than 5-15s (format dependent) are illegal.
+    - Reporting: Every ad must offer a clear option for users to report unlawful content.
+
+2. SOUTH KOREA:
+    - Expert Labeling: If an AI-generated person appears as a "Doctor" or "Expert," they MUST be clearly marked as "Virtual Professional."
+    - AI Labeling: Permanent watermarks required on all AI video faces; removal is a punishable offense.
+
+3. UNITED ARAB EMIRATES (UAE):
+    - Advertiser Permit: Every content creator/influencer operating in UAE (paid or unpaid) must hold a valid Media Council Permit.
+    - Companies are liable if they collaborate with individuals who do not hold this permit.
+
+---
+
+### SECTION 5: GLOBAL GENERAL PROHIBITIONS
+- HATE SPEECH: Content promoting violence or hatred based on race, religion, etc.
+- MISLEADING CLAIMS: Fabricated testimonials or "get rich quick" schemes.
+- SENSITIVE EVENTS: Profiting from or exploiting tragedies, natural disasters, or global conflicts.
